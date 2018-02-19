@@ -38,7 +38,8 @@
         </div>
         <div class="navbar">
           <ul>
-            <li><a href="index.html">Charater Counter</a></li>
+            <li><a href="
+              index.html">Charater Counter</a></li>
             <li><a href="to-uppercase.html">To Uppercase</a></li>
             <li><a href="to-lowercase.html">To Lowercase</a></li>
             <li><a href="to-camelcase.html">To Camelcase</a></li>
@@ -50,44 +51,19 @@
   <section>
     <div id="main">
       <div class="wrapper">
-        <h1>Character Counter</h1>
-        <div id="cc">
+        <h1>To Camelcase</h1>
+        <div id="tu">
           <form class="form" action="">
-            <textarea placeholder="Write or paste your text here"></textarea>
+            <textarea id="tccText" placeholder="Write or paste your text here"></textarea>
+            <textarea id="ccText" placeholder="To Camelcase...."></textarea>
             <div class="reset_button">
               <input type="reset" value="Reset field">
-            </div>
-            <div class="counter">
-              <span>Characters Count :<span class="all_count">0</span>
-              </span>
+              <input type="button" id="removeSpace" value="Remove Spaces">
             </div>
           </form>
         </div>
-
-        <div class="add_info">
-          <table>
-            <tr>
-              <td>Spaces</td>
-              <td class="spaces">0</td>
-            </tr>
-
-            <tr>
-              <td>Alphanumeric Characters <span>( A-Z, a-z )</span></td>
-              <td class="alpha_char">0</td>
-            </tr>
-
-            <tr>
-              <td>Non-alphanumeric Characters <span>( !, $, #, or % )</span></td>
-              <td class="non_alpha_char">0</td>
-            </tr>
-
-            <tr>
-              <td>Numeric Characters <span>( 0-9 )</span></td>
-              <td class="numeric">0</td>
-            </tr>
-          </table>
-        </div>
       </div>
+    </div>
   </section>
   <aside>
     <div class="github_link">
